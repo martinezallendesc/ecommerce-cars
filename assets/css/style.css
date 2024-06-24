@@ -160,16 +160,9 @@ Cards*/
     background-color: #ffffff;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     padding: 20px;
     gap: 20px;
-}
-
-.contenedor-productos h3 {
-    font-family: "Roboto", sans-serif;
-    font-size: 1.5rem;
-    font-weight:bold;
-
-
 }
 
 .product-cards {
@@ -178,6 +171,7 @@ Cards*/
     display: flex;
     flex-direction: column;
     box-shadow: 0 8px 6px -3px #e2e2e2;
+    width: 300px;
 
 }
 
@@ -289,6 +283,54 @@ color: #e9e9e9;
     font-family: 'Roboto';
     text-align: center;
 }
+
+@media (min-width: 576px) {
+
+    .contenedor-principal {
+        grid-template-columns: auto 1fr;
+        grid-template-rows: auto 1fr auto;
+        grid-template-areas:
+        "nav aside"
+        "nav main"
+        "footer main"
+        ;
+    }
+
+   .contenido-header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    
+
+
+
+
+
+.contenedor-productos {
+    display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+}
+
+
+
+.menu-navegacion ul {
+color: #ffffff;
+list-style: none;
+/*Contenido Visible*/
+display: flex;
+}
+
+
+
+
+}
+
+
+
+
 
 
 
