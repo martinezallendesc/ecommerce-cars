@@ -128,9 +128,32 @@ color: orange
     font-family: "Roboto", sans-serif;
     font-size: 0.8rem;
     font-weight: 200;
-    font-style: normal;
-
 }
+
+.contenedor-filtros .campo-select {
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    border: 0.8px solid grey;
+    border-radius: 5px;
+    gap: 20px;
+    padding: 8px 15px 8px 15px;
+}
+
+.contenedor-filtros .campo-select h6 {
+margin:0px;
+color: #263642;
+font-size: 1rem;
+font-family: "Roboto", sans-serif;
+font-size: 0.8rem;
+font-weight: 400;
+}
+
+.contenedor-filtros .campo-select i {
+    color: grey;
+}
+
+
 
 
 
